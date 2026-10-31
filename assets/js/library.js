@@ -6,7 +6,7 @@
    ============================================================ */
 
 window.LIBRARY = {
-  "thaman-al-himaya":          { link: "", note: "مقتطف مجاني متوفّر: assets/thaman-alhimaya-sample.pdf" },
+  "thaman-al-himaya":          { link: "https://drive.google.com/uc?export=download&id=1Pb7nAYQiOgUzEhyend551RGfbmVCS-Xq", note: "الجزء الأول — الفصول 1-6 (32 صفحة). باقي الفصول 7-22 قيد الكتابة." },
   "sharea-yantahi-bibabik":    { link: "", note: "" },
   "man-atfa-masabih":          { link: "", note: "" },
   "archive-sabaa-ayyam":       { link: "", note: "" },
