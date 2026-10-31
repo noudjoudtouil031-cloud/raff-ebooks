@@ -332,7 +332,7 @@
         <div class="price-box">
           <div>
             <div class="big">${money(b.price)}</div>
-            <div class="usd">${b.oldPrice ? `<s>${money(b.oldPrice)}</s> · ` : ""}تعادل ~ ${b.usd} $ للدفع الدولي</div>
+            <div class="usd">${b.oldPrice ? `<s>${money(b.oldPrice)}</s> · ` : ""}السعر بالدينار الجزائري</div>
           </div>
           <div style="margin-inline-start:auto;display:flex;gap:10px;flex-wrap:wrap">
             <button class="btn btn--primary" data-add="${b.id}">${icon("cart")} أضيفي إلى السلة</button>
@@ -535,7 +535,7 @@
               ${!S.whatsapp && !S.email ? `<a class="btn btn--ghost btn--sm" href="contact.html">إرسال الطلب عبر صفحة الاتصال</a>` : ""}
               <a class="btn btn--ghost btn--sm" href="shop.html">متابعة التسوق</a>
             </div>
-            <p class="small" style="margin:14px 0 0">بعد تأكيد الدفع يصلك رابط تحميل كل كتاب على البريد <b dir="ltr">${esc(email)}</b> — عادة في أقل من ساعة عمل، وخلال 5 دقائق للدفع بالبطاقة أو PayPal.</p>
+            <p class="small" style="margin:14px 0 0">بعد تأكيد الدفع يصلك رابط تحميل كل كتاب على البريد <b dir="ltr">${esc(email)}</b> — عادة خلال ساعة عمل بعد تأكيد الدفع.</p>
           </div>
         </div>`;
 
