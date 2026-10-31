@@ -215,11 +215,11 @@
       <p class="eyebrow">ابقَ على الرفّ</p>
       <h2 class="h2">إصدار جديد كل شهر</h2>
       <p class="lead" style="margin:12px auto 0">اتركي بريدك لتصلك الإصدارات الجديدة والعروض قبل الجميع.</p>
-      <form onsubmit="event.preventDefault();this.querySelector('input').value='';this.nextElementSibling.style.display='block'">
-        <input type="email" placeholder="بريدك الإلكتروني" required aria-label="البريد الإلكتروني">
+      <form id="newsletterForm">
+        <input type="email" id="nlEmail" placeholder="بريدك الإلكتروني" required aria-label="البريد الإلكتروني">
         <button class="btn btn--primary" type="submit">اشترك</button>
       </form>
-      <p class="small" style="display:none;color:var(--green);font-weight:700;margin:0">تم التسجيل. شكراً لك.</p>
+      <p class="small" id="nlNote" style="display:none;color:var(--green);font-weight:700;margin:0"></p>
       <p class="small muted" style="margin:0">رسالة واحدة في الشهر. لا إزعاج.</p>
     </div>
   </div>
