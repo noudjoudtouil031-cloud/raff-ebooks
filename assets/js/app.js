@@ -532,6 +532,7 @@
               <button class="btn btn--ghost btn--sm" id="copyOrder">نسخ تفاصيل الطلب</button>
               ${S.whatsapp ? `<a class="btn btn--primary btn--sm" id="waOrder" target="_blank" rel="noopener">إرسال الطلب على واتساب</a>` : ""}
               ${S.email ? `<a class="btn btn--ink btn--sm" id="mailOrder">إرسال بالبريد</a>` : ""}
+              ${!S.whatsapp && !S.email ? `<a class="btn btn--ghost btn--sm" href="contact.html">إرسال الطلب عبر صفحة الاتصال</a>` : ""}
               <a class="btn btn--ghost btn--sm" href="shop.html">متابعة التسوق</a>
             </div>
             <p class="small" style="margin:14px 0 0">بعد تأكيد الدفع يصلك رابط تحميل كل كتاب على البريد <b dir="ltr">${esc(email)}</b> — عادة في أقل من ساعة عمل، وخلال 5 دقائق للدفع بالبطاقة أو PayPal.</p>
@@ -629,7 +630,35 @@
       else el.closest("[data-if-contact]")?.remove();
     });
 
+    initNewsletter();
     observeReveals();
+  }
+
+  function initNewsletter() {
+    const f = $("#newsletterForm");
+    if (!f) return;
+    f.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const email = $("#nlEmail").value.trim();
+      const note = $("#nlNote");
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
+        note.style.display = "block";
+        note.style.color = "#C0392B";
+        note.textContent = "البريد غير صحيح.";
+        return;
+      }
+      if (S.email) {
+        location.href = `mailto:${S.email}?subject=${encodeURIComponent("اشتراك في قائمة رَفّ")}&body=${encodeURIComponent("أضيفوني إلى القائمة البريدية: " + email)}`;
+        note.style.display = "block";
+        note.style.color = "var(--green)";
+        note.textContent = "أكمل الإرسال من بريدك ليصل الاشتراك.";
+      } else {
+        note.style.display = "block";
+        note.style.color = "#8A6A2E";
+        note.textContent = "الاشتراك سيُفتح مع إطلاق البريد الرسمي. اكتبي لنا عبر صفحة الاتصال في هذه الأثناء.";
+      }
+      $("#nlEmail").value = "";
+    });
   }
 
   /* ---------------- boot ---------------- */
