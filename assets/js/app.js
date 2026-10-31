@@ -431,7 +431,7 @@
             <div class="field two">
               <div class="field" style="margin:0">
                 <label for="fullname">الاسم الكامل *</label>
-                <input id="fullname" name="fullname" required autocomplete="name" placeholder="مثال: نودجود تويل">
+                <input id="fullname" name="fullname" required autocomplete="name" placeholder="مثال: نجود طويل">
               </div>
               <div class="field" style="margin:0">
                 <label for="email">البريد الإلكتروني *</label>
