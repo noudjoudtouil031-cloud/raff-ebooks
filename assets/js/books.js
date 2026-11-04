@@ -43,7 +43,7 @@ const BOOKS = [
     author: "نجود طويل",
     category: "riwayat",
     price: 900,
-    pages: 176, rating: 4.7, reviews: 64,
+    pages: 116, rating: 4.7, reviews: 64,
     badge: "جديد",
     cover: "assets/covers/sharea-yantahi-bibabik.jpg",
     short: "كل مساء، يمرّ رجل في شارعها ولا يرفع رأسه. وهي تعرف أنه يعرف.",
