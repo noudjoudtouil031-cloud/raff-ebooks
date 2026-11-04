@@ -6,7 +6,7 @@
    ============================================================ */
 
 window.LIBRARY = {
-  "thaman-al-himaya":          { link: "https://drive.google.com/uc?export=download&id=1rLbuR3kfNySFq6WrPw5jqYCpTWvBW-Ep", note: "الرواية الكاملة: 22 فصلاً، 177 صفحة." },
+  "thaman-al-himaya":          { link: "https://drive.google.com/uc?export=download&id=1rLbuR3kfNySFq6WrPw5jqYCpTWvBW-Ep", note: "الرواية الكاملة: 22 فصلاً، 195 صفحة." },
   "sharea-yantahi-bibabik":    { link: "", note: "" },
   "man-atfa-masabih":          { link: "", note: "" },
   "archive-sabaa-ayyam":       { link: "", note: "" },
