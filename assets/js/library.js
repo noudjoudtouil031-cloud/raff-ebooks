@@ -15,7 +15,7 @@ window.LIBRARY = {
   "mia-talab-oula":            { link: "", note: "" },
   "kitab-fi-jayb-alalam":      { link: "", note: "" },
   "maqadir-ommi":              { link: "", note: "" },
-  "arbaata-ashar-layla":       { link: "", note: "" },
+  "arbaata-ashar-layla":       { link: "https://drive.google.com/uc?export=download&id=17qALEIvpKXEYnpj2HK8gMUWYsdPIRbJ0", note: "16 فصلاً، 86 صفحة." },
   "sawt-akhfad":               { link: "", note: "" },
   "namla-ismouha-tartib":      { link: "", note: "" },
   "thalathmia-kalima":         { link: "", note: "" }
