@@ -21,7 +21,7 @@ const BOOKS = [
     author: "نجود طويل",
     category: "riwayat",
     price: 1200, oldPrice: 1600,
-    pages: 177, rating: 4.9, reviews: 132,
+    pages: 195, rating: 4.9, reviews: 132,
     badge: "الأكثر مبيعاً",
     cover: "assets/covers/thaman-alhimaya.jpg",
     sample: "assets/thaman-alhimaya-sample.pdf",
