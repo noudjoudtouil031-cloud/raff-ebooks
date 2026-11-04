@@ -10,7 +10,7 @@ window.LIBRARY = {
   "sharea-yantahi-bibabik":    { link: "https://drive.google.com/uc?export=download&id=12pbEOSSpm_nMRDKcoNEFMAE2IYVvDRDl", note: "14 فصلاً، 118 صفحة، بفهرس محتويات." },
   "man-atfa-masabih":          { link: "", note: "" },
   "archive-sabaa-ayyam":       { link: "", note: "" },
-  "ashr-daqaiq":               { link: "", note: "" },
+  "ashr-daqaiq":                   { link: "https://drive.google.com/uc?export=download&id=189A8-VSIR-RM2c2YMBR-wNHG0ituiPdr", note: "نسخة كاملة بفهرس محتويات، 62 صفحة." },
   "bab-mughlaq-bilutf":        { link: "", note: "" },
   "mia-talab-oula":            { link: "", note: "" },
   "kitab-fi-jayb-alalam":      { link: "", note: "" },
