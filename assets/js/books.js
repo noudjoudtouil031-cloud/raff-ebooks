@@ -211,7 +211,7 @@ const BOOKS = [
     author: "نجود طويل",
     category: "sihha",
     price: 600,
-    pages: 88, rating: 4.6, reviews: 45,
+    pages: 86, rating: 4.6, reviews: 45,
     badge: "",
     cover: "assets/covers/arbaata-ashar-layla.jpg",
     short: "ليلة واحدة، تعديل واحد. وأربع عشرة ليلة تُعيد بناء نومك.",
