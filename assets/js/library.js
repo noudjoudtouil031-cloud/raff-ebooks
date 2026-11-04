@@ -6,8 +6,8 @@
    ============================================================ */
 
 window.LIBRARY = {
-  "thaman-al-himaya":          { link: "https://drive.google.com/uc?export=download&id=1rLbuR3kfNySFq6WrPw5jqYCpTWvBW-Ep", note: "الرواية الكاملة: 22 فصلاً، 195 صفحة." },
-  "sharea-yantahi-bibabik":    { link: "https://drive.google.com/uc?export=download&id=12pbEOSSpm_nMRDKcoNEFMAE2IYVvDRDl", note: "14 فصلاً، 116 صفحة." },
+  "thaman-al-himaya":          { link: "https://drive.google.com/uc?export=download&id=1rLbuR3kfNySFq6WrPw5jqYCpTWvBW-Ep", note: "الرواية الكاملة: 22 فصلاً، 197 صفحة، بفهرس محتويات." },
+  "sharea-yantahi-bibabik":    { link: "https://drive.google.com/uc?export=download&id=12pbEOSSpm_nMRDKcoNEFMAE2IYVvDRDl", note: "14 فصلاً، 118 صفحة، بفهرس محتويات." },
   "man-atfa-masabih":          { link: "", note: "" },
   "archive-sabaa-ayyam":       { link: "", note: "" },
   "ashr-daqaiq":               { link: "", note: "" },
@@ -15,7 +15,7 @@ window.LIBRARY = {
   "mia-talab-oula":            { link: "", note: "" },
   "kitab-fi-jayb-alalam":      { link: "", note: "" },
   "maqadir-ommi":              { link: "", note: "" },
-  "arbaata-ashar-layla":       { link: "https://drive.google.com/uc?export=download&id=17qALEIvpKXEYnpj2HK8gMUWYsdPIRbJ0", note: "16 فصلاً، 86 صفحة." },
+  "arbaata-ashar-layla":       { link: "https://drive.google.com/uc?export=download&id=17qALEIvpKXEYnpj2HK8gMUWYsdPIRbJ0", note: "16 فصلاً، 88 صفحة، بفهرس محتويات." },
   "sawt-akhfad":               { link: "", note: "" },
   "namla-ismouha-tartib":      { link: "", note: "" },
   "thalathmia-kalima":         { link: "", note: "" }
