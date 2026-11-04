@@ -106,7 +106,7 @@ const BOOKS = [
     author: "نجود طويل",
     category: "tathwir",
     price: 750,
-    pages: 88, rating: 4.7, reviews: 87,
+    pages: 62, rating: 4.7, reviews: 87,
     badge: "",
     cover: "assets/covers/ashr-daqaiq.jpg",
     short: "لا وعود كبيرة: عشر دقائق في اليوم، وجدول تتبّع يُنهي التسويف.",
