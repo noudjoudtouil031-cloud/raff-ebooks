@@ -232,7 +232,7 @@ const BOOKS = [
     author: "نجود طويل",
     category: "tarbiya",
     price: 850,
-    pages: 84, rating: 4.8, reviews: 61,
+    pages: 68, rating: 4.8, reviews: 61,
     badge: "",
     cover: "assets/covers/sawt-akhfad.jpg",
     short: "ثلاثون موقفاً من البيت، وردّ جاهز لكل واحد منها.",
