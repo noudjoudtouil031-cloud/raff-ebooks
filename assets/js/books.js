@@ -164,6 +164,7 @@ const BOOKS = [
   },
   {
     id: "kitab-fi-jayb-alalam",
+    ready: false,
     title: "كتاب في جيب العالم",
     subtitle: "النشر والبيع على أمازون KDP",
     author: "نجود طويل",
@@ -185,6 +186,7 @@ const BOOKS = [
   },
   {
     id: "maqadir-ommi",
+    ready: false,
     title: "مقادير أمي، بملعقتين أقل",
     subtitle: "60 وصفة جزائرية أخف",
     author: "نجود طويل",
@@ -248,6 +250,7 @@ const BOOKS = [
   },
   {
     id: "namla-ismouha-tartib",
+    ready: false,
     title: "نملة اسمها ترتيب",
     subtitle: "12 حكاية مصوّرة قبل النوم",
     author: "نجود طويل",
