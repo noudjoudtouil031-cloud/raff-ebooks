@@ -18,5 +18,5 @@ window.LIBRARY = {
   "arbaata-ashar-layla":           { link: "https://drive.google.com/uc?export=download&id=1y7QUniBofKBNvo7bTCTTiatURicmG4gB", note: "نسخة كاملة بفهرس محتويات، 88 صفحة." },
   "sawt-akhfad":                   { link: "https://drive.google.com/uc?export=download&id=1drds8h8libwHDd1EDKzZwa0ggUy5OeVL", note: "نسخة كاملة بفهرس محتويات، 68 صفحة." },
   "namla-ismouha-tartib":      { link: "", note: "" },
-  "thalathmia-kalima":             { link: "https://drive.google.com/uc?export=download&id=1ihkf3CD0eBvLuCJ01cjMxNtD2Vl3MGed", note: "نسخة كاملة بفهرس محتويات، 70 صفحة." }
+  "thalathmia-kalima":             { link: "https://drive.google.com/uc?export=download&id=1OQSgpEKVAt29GuZGBUf1zm36oXJOCPrL", note: "نسخة كاملة بفهرس محتويات، 70 صفحة." }
 };
