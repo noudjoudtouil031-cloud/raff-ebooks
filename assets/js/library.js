@@ -18,5 +18,5 @@ window.LIBRARY = {
   "arbaata-ashar-layla":       { link: "https://drive.google.com/uc?export=download&id=17qALEIvpKXEYnpj2HK8gMUWYsdPIRbJ0", note: "16 فصلاً، 88 صفحة، بفهرس محتويات." },
   "sawt-akhfad":                   { link: "https://drive.google.com/uc?export=download&id=1drds8h8libwHDd1EDKzZwa0ggUy5OeVL", note: "نسخة كاملة بفهرس محتويات، 68 صفحة." },
   "namla-ismouha-tartib":      { link: "", note: "" },
-  "thalathmia-kalima":         { link: "", note: "" }
+  "thalathmia-kalima":             { link: "https://drive.google.com/uc?export=download&id=1ihkf3CD0eBvLuCJ01cjMxNtD2Vl3MGed", note: "نسخة كاملة بفهرس محتويات، 70 صفحة." }
 };
