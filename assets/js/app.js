@@ -61,6 +61,8 @@
   const cartTotal = () => cartItems().reduce((s, i) => s + i.book.price * i.qty, 0);
 
   function addToCart(id, qty) {
+    const bk = bookById(id);
+    if (bk && bk.ready === false) return;
     const c = readCart();
     c[id] = Math.min(9, (c[id] || 0) + (qty || 1));
     writeCart(c);
@@ -171,7 +173,9 @@
       <a class="book-cover" href="book.html?id=${b.id}" aria-label="${esc(b.title)}">
         ${badge}
         <img src="${b.cover}" alt="غلاف ${esc(b.title)}" loading="lazy">
-        <button class="cover-quick" type="button" data-add="${b.id}">أضيفي إلى السلة +</button>
+        ${b.ready === false
+          ? `<span class="cover-quick" style="pointer-events:none;background:#211d1a;color:#d9ba7b">قريباً</span>`
+          : `<button class="cover-quick" type="button" data-add="${b.id}">أضيفي إلى السلة +</button>`}
       </a>
       <div class="book-meta">
         <span class="book-cat">${esc(catName(b.category))}</span>
@@ -335,8 +339,10 @@
             <div class="usd">${b.oldPrice ? `<s>${money(b.oldPrice)}</s> · ` : ""}السعر بالدينار الجزائري</div>
           </div>
           <div style="margin-inline-start:auto;display:flex;gap:10px;flex-wrap:wrap">
-            <button class="btn btn--primary" data-add="${b.id}">${icon("cart")} أضيفي إلى السلة</button>
-            <button class="btn btn--ink" id="buyNow">اشتري الآن</button>
+            ${b.ready === false
+              ? `<button class="btn btn--primary" disabled>قريباً</button>`
+              : `<button class="btn btn--primary" data-add="${b.id}">${icon("cart")} أضيفي إلى السلة</button>
+            <button class="btn btn--ink" id="buyNow">اشتري الآن</button>`}
           </div>
         </div>
 
