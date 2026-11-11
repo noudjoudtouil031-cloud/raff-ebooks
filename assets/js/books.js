@@ -274,7 +274,7 @@ const BOOKS = [
     author: "نجود طويل",
     category: "ta3lim",
     price: 1200,
-    pages: 76, rating: 4.6, reviews: 54,
+    pages: 70, rating: 4.6, reviews: 54,
     badge: "",
     cover: "assets/covers/thalathmia-kalima.jpg",
     short: "من الحروف إلى أول محادثة كاملة، بخطة أسبوعية واضحة.",
