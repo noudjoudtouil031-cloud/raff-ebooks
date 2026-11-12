@@ -3,18 +3,18 @@
    ============================================================ */
 
 :root{
-  --ink:#1A1512;
-  --ink-2:#3C332C;
-  --muted:#7A6E64;
-  --cream:#FAF6EF;
-  --cream-2:#F2EBDF;
+  --ink:#16211C;
+  --ink-2:#37443D;
+  --muted:#6F7B73;
+  --cream:#FBF8F1;
+  --cream-2:#F2EDE1;
   --paper:#FFFFFF;
-  --wine:#7B1F2B;
-  --wine-2:#5C1620;
-  --gold:#B78A4B;
-  --gold-soft:#E4D2AE;
-  --line:#E4DACB;
-  --green:#1F5F4E;
+  --wine:#175043;
+  --wine-2:#0E352C;
+  --gold:#BE9A57;
+  --gold-soft:#E7D8B8;
+  --line:#E3DFD2;
+  --green:#2E7D64;
   --radius:14px;
   --radius-lg:22px;
   --shadow-sm:0 2px 8px rgba(26,21,18,.06);
@@ -74,7 +74,7 @@ ul{margin:0; padding:0; list-style:none}
   white-space:nowrap;
 }
 .btn:hover{transform:translateY(-1px)}
-.btn--primary{background:var(--wine); color:#fff; box-shadow:0 10px 24px rgba(123,31,43,.22)}
+.btn--primary{background:var(--wine); color:#fff; box-shadow:0 10px 24px rgba(23,80,67,.22)}
 .btn--primary:hover{background:var(--wine-2)}
 .btn--ink{background:var(--ink); color:var(--cream)}
 .btn--ink:hover{background:#000}
@@ -95,7 +95,7 @@ header.site{position:sticky; top:0; z-index:60; background:rgba(250,246,239,.92)
 .logo{display:flex; align-items:center; gap:11px; font-family:var(--serif); font-size:30px; font-weight:700; line-height:1}
 .logo-mark{
   width:42px; height:42px; border-radius:12px; display:block; flex:0 0 auto;
-  box-shadow:0 2px 8px rgba(123,31,43,.18);
+  box-shadow:0 2px 8px rgba(23,80,67,.18);
 }
 .foot-brand .logo-mark{box-shadow:none}
 .logo small{display:block; font-family:var(--sans); font-size:10.5px; letter-spacing:.22em; color:var(--muted); font-weight:500; margin-top:6px}
@@ -212,7 +212,7 @@ header.site{position:sticky; top:0; z-index:60; background:rgba(250,246,239,.92)
 
 /* ---------- feature banner ---------- */
 .feature{
-  background:linear-gradient(135deg,#221A16 0%,#3A2622 55%,#5C1620 100%);
+  background:linear-gradient(135deg,#221A16 0%,#3A2622 55%,#0E352C 100%);
   color:var(--cream); border-radius:var(--radius-lg); overflow:hidden; position:relative;
 }
 .feature-grid{display:grid; grid-template-columns:.85fr 1.15fr; gap:0; align-items:center}
