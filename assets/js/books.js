@@ -20,7 +20,7 @@ const BOOKS = [
     subtitle: "الجزء الأول — رواية دارك رومانس",
     author: "نجود طويل",
     category: "riwayat",
-    price: 950,
+    price: 950, oldPrice: 1600,
     pages: 197, rating: 4.9, reviews: 132,
     badge: "الأكثر مبيعاً",
     cover: "assets/covers/thaman-alhimaya.jpg",
