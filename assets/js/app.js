@@ -11,7 +11,7 @@
   /* ---------------- helpers ---------------- */
   const $ = (s, r) => (r || document).querySelector(s);
   const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
-  const money = (n) => Number(n).toLocaleString("en-US").replace(/,/g, " ") + " " + CUR;
+  const money = (n) => "\u2066" + String(Math.round(Number(n))) + "\u2067 " + CUR;
   const catName = (id) => (CATEGORIES.find((c) => c.id === id) || {}).name || id;
   const bookById = (id) => BOOKS.find((b) => b.id === id);
   const esc = (t) =>
