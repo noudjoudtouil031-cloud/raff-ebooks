@@ -147,7 +147,7 @@ const BOOKS = [
     subtitle: "التجارة الإلكترونية في الجزائر",
     author: "نجود طويل",
     category: "amal",
-    price: 990,
+    price: 990, oldPrice: 1900,
     pages: 68, rating: 4.8, reviews: 96,
     badge: "الأكثر مبيعاً",
     cover: "assets/covers/mia-talab-oula.jpg",
